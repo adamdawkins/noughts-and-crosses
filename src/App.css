@@ -1,0 +1,22 @@
+.Board {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+table td {
+	border: 1px solid black;
+	width: 15vmin;
+	height: 15vmin;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 12vmin;
+}
+
+.x {
+	color: red;
+}
+
+.o {
+	color: blue;
+}
